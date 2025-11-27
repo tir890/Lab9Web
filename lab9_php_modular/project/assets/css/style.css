@@ -1,4 +1,3 @@
-/* Reset dasar */
 * {
     box-sizing: border-box;
 }
@@ -11,7 +10,6 @@ body {
     color: #333;
 }
 
-/* Container Utama */
 .container {
     width: 90%;
     max-width: 960px;
@@ -22,7 +20,6 @@ body {
     border-radius: 8px;
 }
 
-/* Header & Judul */
 header h1, h2 {
     color: #333;
     border-bottom: 2px solid #eee;
@@ -31,7 +28,6 @@ header h1, h2 {
     font-size: 24px;
 }
 
-/* Navigasi (Menu) - Khusus Praktikum 9 */
 nav {
     background-color: #007bff;
     padding: 10px;
@@ -52,7 +48,6 @@ nav a:hover {
     border-radius: 4px;
 }
 
-/* Tabel Data Barang */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -76,7 +71,6 @@ table tr:nth-child(even) {
     background-color: #fcfcfc;
 }
 
-/* Gambar dalam tabel */
 table img {
     max-width: 80px;
     height: auto;
@@ -84,7 +78,6 @@ table img {
     display: block;
 }
 
-/* Tombol & Link Aksi */
 a {
     color: #007bff;
     text-decoration: none;
@@ -94,7 +87,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Tombol Tambah Barang */
 .btn-tambah {
     display: inline-block;
     padding: 10px 20px;
@@ -110,7 +102,6 @@ a:hover {
     text-decoration: none;
 }
 
-/* Form Styling (Tambah & Ubah) */
 form {
     margin-top: 20px;
 }
@@ -144,10 +135,9 @@ form {
     outline: none;
 }
 
-/* Tombol Submit */
 .submit {
     margin-top: 20px;
-    padding-left: 150px; /* Menyesuaikan lebar label */
+    padding-left: 150px;
 }
 
 input[type="submit"] {
@@ -166,7 +156,6 @@ input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Footer */
 footer {
     margin-top: 40px;
     text-align: center;
@@ -174,4 +163,5 @@ footer {
     color: #aaa;
     border-top: 1px solid #eee;
     padding-top: 20px;
+
 }
