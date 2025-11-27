@@ -103,7 +103,7 @@ CREATE TABLE users (
 
 Halaman Login
 
-
 Halaman Daftar Barang
+![Data Barang](https://github.com/tir890/Lab9Web/blob/eb042d87fac657162fa9d76cee6f2cfc52ac24c5/image.png)
 
 Halaman Tambah Data
