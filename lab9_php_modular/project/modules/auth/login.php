@@ -1,32 +1,21 @@
 <?php
-// Cek jika user sudah login, langsung lempar ke halaman utama (Data Barang)
+
 if (isset($_SESSION['is_logged_in']) && $_SESSION['is_logged_in'] === true) {
     header('location: index.php?page=user/list');
     exit;
 }
 
 $error = '';
-
-// Proses Login ketika tombol submit ditekan
 if (isset($_POST['submit'])) {
     $username = mysqli_real_escape_string($conn, $_POST['username']);
     $password = $_POST['password'];
-
-    // Cek username di database
     $sql = "SELECT * FROM users WHERE username = '$username'";
     $result = mysqli_query($conn, $sql);
-
-    // Jika username ditemukan
     if (mysqli_num_rows($result) > 0) {
         $data = mysqli_fetch_assoc($result);
-        
-        // Verifikasi password (menggunakan password_verify)
         if (password_verify($password, $data['password'])) {
-            // Login Sukses: Buat Session
             $_SESSION['username'] = $data['username'];
             $_SESSION['is_logged_in'] = true;
-            
-            // Redirect ke halaman utama (Data Barang)
             header('location: index.php?page=user/list');
             exit;
         } else {
@@ -60,4 +49,5 @@ if (isset($_POST['submit'])) {
             <input type="submit" name="submit" value="Login" style="width: 100%;">
         </div>
     </form>
+
 </div>
