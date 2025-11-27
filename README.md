@@ -107,3 +107,4 @@ Halaman Daftar Barang
 ![Data Barang](https://github.com/tir890/Lab9Web/blob/eb042d87fac657162fa9d76cee6f2cfc52ac24c5/image.png)
 
 Halaman Tambah Data
+![Tambah Barang](https://github.com/tir890/Lab9Web/blob/650c2b480a2743c5161bb3ffcf12bd396fd5c15f/tambah%20data.png)
