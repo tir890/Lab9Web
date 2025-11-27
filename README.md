@@ -99,12 +99,13 @@ CREATE TABLE users (
 
 5) Password: ``admin123``
 
-📸 Tangkapan Layar
+## 📸 Tangkapan Layar
 
-Halaman Login
+### Halaman Login
+![Login dan Logout](https://github.com/tir890/Lab9Web/blob/f93552fe8316ea383fccda63a6993792b4b79c98/login.png)
 
-Halaman Daftar Barang
+### Halaman Daftar Barang
 ![Data Barang](https://github.com/tir890/Lab9Web/blob/eb042d87fac657162fa9d76cee6f2cfc52ac24c5/image.png)
 
-Halaman Tambah Data
+### Halaman Tambah Data
 ![Tambah Barang](https://github.com/tir890/Lab9Web/blob/650c2b480a2743c5161bb3ffcf12bd396fd5c15f/tambah%20data.png)
