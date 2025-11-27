@@ -81,28 +81,28 @@ CREATE TABLE users (
 );
 ```
 
--- Password default: "admin123"
-INSERT INTO users (username, password) 
-VALUES ('admin', '$2y$10$uWk3eY.qjC.N5Xy5j6y5hu.v5f5x5j5y5z5a5b5c5d5e5f5g5h');
 2. Konfigurasi Project
-Pastikan folder project lab9_php_modular tersimpan di dalam folder htdocs (misal: C:\xampp\htdocs\lab9_php_modular).
+   
+1) Pastikan folder project ``lab9_php_modular`` tersimpan di dalam folder htdocs ``(misal: C:\xampp\htdocs\lab9_php_modular).``
 
-Cek file config/database.php dan pastikan username/password database sesuai dengan settingan XAMPP kamu (Default: user root, password kosong).
+2) Cek file ``config/database.php`` dan pastikan username/password database sesuai dengan settingan XAMPP kamu (Default: user root, password kosong).
 
 3. Jalankan Aplikasi
-Buka browser dan akses: http://localhost/lab9_php_modular/project/
+   
+1) Buka browser dan akses: ``http://localhost/lab9_php_modular/project/``
 
-Anda akan diarahkan ke halaman Login.
+2) Anda akan diarahkan ke halaman Login.
 
-Gunakan akun default berikut untuk masuk:
+3) Gunakan akun default berikut untuk masuk:
 
-Username: admin
+4) Username: ``admin``
 
-Password: admin123
+5) Password: ``admin123``
 
 📸 Tangkapan Layar
 
 Halaman Login
+
 
 Halaman Daftar Barang
 
